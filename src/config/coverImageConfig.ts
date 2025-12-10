@@ -50,7 +50,7 @@ export const coverImageConfig: CoverImageConfig = {
 		// 水印开关
 		enable: true,
 		// 水印文本
-		text: "Random Cover",
+		text: "随机 API cover",
 		/**
 		 * 水印位置
 		 * - "top-left": 左上角
