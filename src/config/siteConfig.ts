@@ -6,19 +6,19 @@ import { fontConfig } from "./fontConfig";
 const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
-	title: "Firefly",
-	subtitle: "Demo site",
-	site_url: "https://firefly.cuteleaf.cn",
+	title: "JasonShane",
+	subtitle: "七月初七，淮水竹亭",
+	site_url: "https://blog.xshan.top",
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"互联网一角的个人博客，记录技术、生活、思考等内容。",
 	keywords: [
-		"Firefly",
+		"JasonShane",
 		"Fuwari",
 		"Astro",
-		"ACGN",
+		"二次元",
 		"博客",
-		"技术博客",
-		"静态博客",
+		"游戏宅",
+		"技术宅",
 	],
 
 	lang: SITE_LANG,
@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		// 留空以使用默认 favicon
 		{
-			src: "/assets/images/favicon.ico", // 图标文件路径
+			src: "https://xshan.dpdns.org/202512-1yDc.ico", // 图标文件路径
 			theme: "light", // 可选，指定主题 'light' | 'dark'
 			sizes: "32x32", // 可选，图标大小
 		},
@@ -52,11 +52,11 @@ export const siteConfig: SiteConfig = {
 	navbarWidthFull: false, // 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
+	siteStartDate: "2025-01-09", // 请修改为你的站点实际开始日期，格式：YYYY-MM-DD
 
 	// bangumi配置
 	bangumi: {
-		userId: "1163581", // 在此处设置你的Bangumi用户ID
+		userId: "jasonshane", // 在此处设置你的Bangumi用户ID
 	},
 
 	// 文章页底部的"上次编辑时间"卡片开关
@@ -85,14 +85,14 @@ export const siteConfig: SiteConfig = {
 	// 分页配置
 	pagination: {
 		// 每页显示的文章数量
-		postsPerPage: 8,
+		postsPerPage: 10,
 	},
 
 	backgroundWallpaper: {
 		// 壁纸模式："banner" 横幅壁纸，"overlay" 全屏壁纸，"none" 纯色背景无壁纸
 		mode: "banner",
 		// 是否允许用户通过导航栏切换壁纸模式，设为false可提升性能（只渲染当前模式）
-		switchable: true,
+		switchable: false,
 
 		// 背景图片配置
 		src: {
@@ -113,20 +113,21 @@ export const siteConfig: SiteConfig = {
 				// 主页显示自定义文本（全局开关）
 				enable: true,
 				// 主页横幅主标题
-				title: "Lovely firefly!",
+				title: "Jason Shane",
 				// 主页横幅副标题
 				subtitle: [
-					"In Reddened Chrysalis, I Once Rest",
-					"From Shattered Sky, I Free Fall",
-					"Amidst Silenced Stars, I Deep Sleep",
-					"Upon Lighted Fyrefly, I Soon Gaze",
-					"From Undreamt Night, I Thence Shine",
-					"In Finalized Morrow, I Full Bloom",
+					"探索、了解、建立、连结",
+					"即使命途兴衰消长，开拓者应自有主张‌",
+					"‌即使面对惊涛骇浪，列车组应一致同向",
+					"即使身处进退存亡，仍应与不义相抗",
+					"即使遭到世人遗忘，仍不计事后短长",
+                    "‌即使银河暮色苍茫，仍应将长夜照亮",
+                    "‌即使局面纷乱无章，仍应看向前方、碾碎乱象",
 				],
 				typewriter: {
 					//打字机开启 → 循环显示所有副标题
 					//打字机关闭 → 每次刷新随机显示一条副标题
-					enable: false, // 启用副标题打字机效果
+					enable: true, // 启用副标题打字机效果
 					speed: 100, // 打字速度（毫秒）
 					deleteSpeed: 50, // 删除速度（毫秒）
 					pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
