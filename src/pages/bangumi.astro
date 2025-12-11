@@ -31,7 +31,7 @@ const bangumiConfig = {
 	},
 	// 数据获取设置
 	pagination: {
-		limit: 50, // 每页获取数量
+		limit: 20, // 每页获取数量
 		delay: 50, // 请求间隔毫秒数，避免频率限制
 		maxTotal: 1000, // 最大获取总数，防止无限循环（0=无限制）
 	},
@@ -218,7 +218,7 @@ const buildTime = new Date().toLocaleString();
             sectionId={tab.id}
             items={bangumiData[tab.id] || []}
             isActive={tab.id === activeTab}
-            itemsPerPage={6}
+            itemsPerPage={20}
           />
           ))}
         </>
