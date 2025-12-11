@@ -2,7 +2,7 @@
 
 你好！我是 **JasonShane** ，一个二次元技术宅，喜欢探索新的技术和填充自己的未知域，挑战不可知域。
 
-- 追番清单：[bangumi番组计划](https://blog.xshan.top/bangumi/)
+- 追番清单：[bangumi番组计划](/bangumi/)
 - 常用工具：
 
 <p align="center">
