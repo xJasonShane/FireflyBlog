@@ -153,7 +153,7 @@ export const zh_CN: Translation = {
 	[Key.wallpaperNoneMode]: "纯色背景",
 
 	// 赞助页面
-	[Key.sponsor]: "赞助",
+	[Key.sponsor]: "赞助计划",
 	[Key.sponsorTitle]: "赞助支持",
 	[Key.sponsorDescription]:
 		"如果我的内容对你有帮助，欢迎通过以下方式赞助我，你的支持是我持续创作的动力！",
