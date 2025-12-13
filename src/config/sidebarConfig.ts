@@ -98,7 +98,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			configId: "ad1",
 		},
         {
-			// 组件类型：广告栏组件 1
+			// 组件类型：Umami统计组件
 			type: "umamiStats",
 			// 是否启用该组件
 			enable: true,
