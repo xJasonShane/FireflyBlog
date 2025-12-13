@@ -8,6 +8,6 @@ export const announcementConfig: AnnouncementConfig = {
 		enable: true, // 启用链接
 		text: "前往主页", // 链接文本
 		url: "https://www.xshan.top/", // 链接 URL
-		external: false, // 内部链接
+		external: true, // 内部链接
 	},
 };
