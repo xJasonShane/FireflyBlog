@@ -319,7 +319,8 @@ export type WidgetComponentType =
 	| "advertisement"
 	| "stats"
 	| "calendar"
-	| "custom";
+	| "custom"
+    | "umamiStats"; 
 
 export type WidgetComponentConfig = {
 	type: WidgetComponentType; // 组件类型
